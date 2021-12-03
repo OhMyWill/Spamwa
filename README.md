@@ -6,4 +6,6 @@ pkg instal python -y
 
 pkg install git -y
 
-git clone  https://github.com/OhMyWill/Spamwa
+git clone  https://github.com/OhMyWill/Spamwa.git
+
+cd spam wa
