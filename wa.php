@@ -8,9 +8,9 @@ $nomer = trim(fgets(STDIN));
 
 if(strlen($nomer)==11){
 
-	$nomer = str_replace("0","62".$nomer);}elseif(strlen($nomer)>12){
+	$nomer = str_replace("0","0".$nomer);}elseif(strlen($nomer)>12){
 
-	$nomer = str_replace("62","0",$nomer);
+	$nomer = str_replace("62","62",$nomer);
 
 }
 
